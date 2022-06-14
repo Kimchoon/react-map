@@ -1,0 +1,31 @@
+.header {
+    background-color: rgb(131, 252, 131);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    align-items: center;
+}
+
+.header img {
+    width: 15rem;
+}
+
+.header .right-div {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.header input {
+    height: 2rem;
+    width: 30%;
+    border-radius: 7px;
+    border: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    color: green;
+}
